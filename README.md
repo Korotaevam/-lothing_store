@@ -1,5 +1,7 @@
 # clothing_store
 Clothing store (Django, ORM) HTML+CSS Template, Products with description and image, Registration, Authorization, Shopping cart, Admin page
+
+
 Магазин одежды (Django, ORM)
 HTML+CSS Шаблон,
 Товары с описанием и изображением,
