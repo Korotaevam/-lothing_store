@@ -6,6 +6,7 @@
 {% endblock %}
 
 
+
 <!-- Page Content -->
 {% block content %}
 <section>
@@ -13,6 +14,13 @@
         <div class="row">
             <div class="col-lg-6">
                 <h1 class="mt-5">Store</h1>
+
+{% now "jS F Y H:i" %}
+{% filter force_escape|lower %}
+    This text will be HTML-escaped http://127.0.0.1:8000/, and will appear in all lowercase.
+{% endfilter %}
+
+
                 <p>
                     Новые образы и лучшие бренды Store.
                     Бесплатная доставка по всему миру! Аутлет: до -70% Собственный бренд. -20% новым покупателям.
